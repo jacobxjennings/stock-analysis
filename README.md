@@ -10,7 +10,8 @@ Previously, my client requested assistance in building a automated script to hel
 
 Initally, I believed my script ran pretty well. However, after further analysis I realized that I could improve on a couple of things to allow the script to scale more efficiently. For example, after making a few changes to the script, shown below, I reduced the time the code takes to run by .0986 seconds. 
 
-[Insert VBA Time Screenshots]
+![Time Result Before Refactoring](https://github.com/jacobxjennings/stock-analysis/blob/main/Resources/VBA_Challenge_2018_Time.PNG)
+![Time Result After Refactoring](https://github.com/jacobxjennings/stock-analysis/blob/main/Resources/VBA_Challenge_2018_Refactored_Time.PNG)
 
 Listed below, are an example of the inital code for increasing the totalVolume. These two do the exact same thing but the second uses arrays to process the data. 
 
@@ -31,8 +32,8 @@ End If
 
 Since the goal of refactoring is to just improve on the process of the same code, the outputs should and do look the exact same. This is show below: 
 
-[Insert Output Screenshots]
-
+![Analysis Output Before Refactoring](https://github.com/jacobxjennings/stock-analysis/blob/main/Resources/VBA_Challenge_2018_Output.PNG)
+![Analysis Output After Refactoring](https://github.com/jacobxjennings/stock-analysis/blob/main/Resources/VBA_Challenge_2018_Refactored_Output.PNG)
 
 ## Summary
 Refactored code, in general, is faster and more efficent to compute. This is especially expressed when working with huge datasets that could take minutes to analyze. When refactoring code one must realize that readability is deminished; therefore, they must be extra cautious to include descriptive comments, as well as organized lines/whitespace. 
