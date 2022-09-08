@@ -1,5 +1,3 @@
-#Stock Analysis Using Excel and VBA
-
 ## Overview of Project
 In this project, I use Excel and VBA to analyze historical stock data.
 
